@@ -13,10 +13,10 @@
   script('//tajs.qq.com/stats?sId=66475325')
 
   //加载页面
-  var npm = C.cdn.npm+"/", t=await (await fetch(npm+6)).text().split("\n");
+  var npm = C.cdn.npm+"/", t=(await (await fetch(npm+6)).text()).split("\n");
   for(let i=0;i<4;++i){
     for (let s of t[i].split(' ')){
-      s = npm+s+'.'
+      s = npm+s+'.';
       (i==1)?script(s+'js'):tag(
         'link',
         {
