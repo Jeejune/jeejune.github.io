@@ -2,7 +2,7 @@ txt:
   title: 六度空间
 
 cdn:
-  npm: //6d2.oss-accelerate.aliyuncs.com
+  npm: //cdn.jsdelivr.net/npm/6d
   img: ''
   site: ''
   js: ''

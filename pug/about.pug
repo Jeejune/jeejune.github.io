@@ -41,13 +41,15 @@ main.page
 
 script(src="//cdn.staticfile.org/typed.js/2.0.11/typed.min.js")
 script.
-  let typed = new Typed('h1 b', {
+  (=>{
+  var typed = new Typed('h1 b', {
     strings: ["生死看淡 · 不服就干\n─ 雷军"],
     typeSpeed:250,
     onStringTyped:()=>{
       typed.el.nextSibling.remove()
     }
   })
+  })()
 
 main.page2
   h2 这是一个演示页
