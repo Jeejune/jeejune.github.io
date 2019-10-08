@@ -10,5 +10,5 @@ cdn:
 url:
   li : ':f()'
   pug : ':f(about)'
-  md : ':f(join|vision|readme|quote/declaration-of-digital-independence)'
+  md : ':f(join|vision|readme|0day)'
 
