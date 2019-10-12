@@ -71,5 +71,3 @@
 ### 相关链接
 
 [英文原文 : Declaration of Digital Independence](https://larrysanger.org/2019/06/declaration-of-digital-independence/)
-
-
