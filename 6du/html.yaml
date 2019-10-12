@@ -2,7 +2,7 @@ txt:
   title: 六度空间
 
 cdn:
-  npm: //cdn.jsdelivr.net/npm/6d
+  npm: //cdn.jsdelivr.net/npm/6d@1.0.58
   js: ''
   img: ''
   site: ''
