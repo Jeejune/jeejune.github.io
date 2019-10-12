@@ -3,12 +3,10 @@ txt:
 
 cdn:
   npm: //cdn.jsdelivr.net/npm/6d
+  js: ''
   img: ''
   site: ''
-  js: ''
 
 url:
-  li : ':f()'
-  pug : ':f(about)'
-  md : ':f(join|vision|readme|0day)'
+  li : '|'
 
