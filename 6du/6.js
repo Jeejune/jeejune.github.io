@@ -14,7 +14,7 @@
   })
 
   //加载页面
-  var npm = C.cdn.npm+"/", t=(await (await fetch(npm+6)).text()).split("\n");
+  var npm = C.cdn.npm+"/", t=(await (await fetch(npm+6+'?'+parseInt(new Date()/6000).toString(36))).text()).split("\n");
   for(let i=0;i<4;++i){
     for (let s of t[i].split(' ')){
       s = npm+s+'.';
